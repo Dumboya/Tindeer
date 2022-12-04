@@ -1,0 +1,166 @@
+/* Main Tags */
+
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato-bold";
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Lato";
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(158, 158, 152);
+}
+
+/* Universal Tags */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.deer-image {
+    position: absolute;
+    transform: rotate(20deg);
+    width: 20%;
+    right: 20%;
+    top: 15%;
+    border-radius: 450%;
+}
+
+/* Navigation Bar */
+
+
+
+/* Title */
+
+#title {
+    background-color: rgb(98, 156, 137);
+    color: #fff;
+}
+
+.title-section {
+    text-align: left;
+    padding: 10%;
+}
+
+@media (max-width: 1000px) {
+    .title-section {
+        text-align: center;
+    }
+
+    .deer-image {
+        position: static;
+        transform: rotate(0);   
+    }
+}
+
+/* Features */
+
+#features {
+    padding: 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%
+}
+
+.icon {
+    color: #b1cfab;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(98, 156, 137);
+}
+
+/* Testimonial */
+
+#testimonial {
+    background-color: rgb(98, 156, 137);
+    color: #fff;
+    padding-top: 10%;
+}
+
+#testimonial-inner-carousel {
+    padding: 5% 20%;
+}
+
+.testimonial-image {
+    width: 20%;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+.testimonial-p {
+    color: #3b3b3b;
+}
+
+/* Press */
+#press {
+    background-color: rgb(98, 156, 137);
+    padding: 5%;
+}
+
+.press-image {
+    margin: 2%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 5%;
+}
+
+.pricing-header {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    margin: 3%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: rgb(98, 156, 137);
+    color: #fff;
+    padding: 10%;
+}
+
+#deer-art {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.cta-heading {
+    margin-top: 2%;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+}
